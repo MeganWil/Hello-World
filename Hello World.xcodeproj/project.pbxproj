@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		50DA3D2422A4AF950031E3D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DA3D2322A4AF950031E3D0 /* AppDelegate.swift */; };
-		50DA3D2622A4AF950031E3D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DA3D2522A4AF950031E3D0 /* ViewController.swift */; };
 		50DA3D2922A4AF950031E3D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DA3D2722A4AF950031E3D0 /* Main.storyboard */; };
 		50DA3D2C22A4AF950031E3D0 /* Hello_World.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50DA3D2A22A4AF950031E3D0 /* Hello_World.xcdatamodeld */; };
 		50DA3D2E22A4AF960031E3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DA3D2D22A4AF960031E3D0 /* Assets.xcassets */; };
 		50DA3D3122A4AF960031E3D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DA3D2F22A4AF960031E3D0 /* LaunchScreen.storyboard */; };
 		50DA3D3C22A4AF960031E3D0 /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DA3D3B22A4AF960031E3D0 /* Hello_WorldUITests.swift */; };
+		50DA3D4722A4C12E0031E3D0 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DA3D4622A4C12E0031E3D0 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		50DA3D2022A4AF950031E3D0 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DA3D2322A4AF950031E3D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50DA3D2522A4AF950031E3D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50DA3D2822A4AF950031E3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50DA3D2B22A4AF950031E3D0 /* Hello_World.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hello_World.xcdatamodel; sourceTree = "<group>"; };
 		50DA3D2D22A4AF960031E3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		50DA3D3722A4AF960031E3D0 /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DA3D3B22A4AF960031E3D0 /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		50DA3D3D22A4AF960031E3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DA3D4622A4C12E0031E3D0 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				50DA3D2322A4AF950031E3D0 /* AppDelegate.swift */,
-				50DA3D2522A4AF950031E3D0 /* ViewController.swift */,
 				50DA3D2722A4AF950031E3D0 /* Main.storyboard */,
+				50DA3D4622A4C12E0031E3D0 /* HelloWorldViewController.swift */,
 				50DA3D2D22A4AF960031E3D0 /* Assets.xcassets */,
 				50DA3D2F22A4AF960031E3D0 /* LaunchScreen.storyboard */,
 				50DA3D3222A4AF960031E3D0 /* Info.plist */,
@@ -201,8 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DA3D2C22A4AF950031E3D0 /* Hello_World.xcdatamodeld in Sources */,
-				50DA3D2622A4AF950031E3D0 /* ViewController.swift in Sources */,
 				50DA3D2422A4AF950031E3D0 /* AppDelegate.swift in Sources */,
+				50DA3D4722A4C12E0031E3D0 /* HelloWorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
